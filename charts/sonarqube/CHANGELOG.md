@@ -1,6 +1,10 @@
 # SonarQube Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [5.4.1]
+* Refactor templating of ConfigMap for sonar.properties
+* Fix the bug where sonarSecretKey was not applied without sonar.properties set
+
 ## [5.4.0]
 * Allow `tests.image` to be configured and update README accordingly.
 * Allow `tests.initContainers.image` to be configured and update README accordingly.
