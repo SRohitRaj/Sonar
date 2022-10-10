@@ -1,6 +1,10 @@
 # SonarQube Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [5.5.0]
+* Fix the installation of plugins using the standard folder `extensions/plugins` instead of `extensions/downloads` and `lib/common`
+* Remove `plugins.lib` and other small edits in the documentation
+
 ## [5.4.1]
 * Fix the right-dash curly brace issue with the additional network policy parameter
 
